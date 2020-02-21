@@ -21,14 +21,12 @@ p{
 section{
     height: 750px;
     width: 100%;
-   
-
 }
 .top-banner{
     width:100%; 
     background-image: url("images/header-bg.png");
-    background-repeat: no-repeat; 
-    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center;
     padding-bottom: 150px;
 }
 
@@ -99,7 +97,7 @@ section{
     background-repeat:no-repeat;
     background-position: center;
     width:100%;
-    padding-bottom:100px;
+   
 }
 .work-container{
     width: 100%;
@@ -134,5 +132,45 @@ section{
 .project-work h1{
     text-align: center;
 }
+.client-area{
+    padding-bottom: 100px;
+    background-image: url("images/footer-bg.png");
+    text-align: justify;
+}
 
+.client-area h1,h2,p,h5{
+    text-align: center;
+   
+}
+
+.client-picture img{
+    height:200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gmail-address{
+    width: 60%;
+    margin: auto;
+    background-color: #EC4C7A;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight:700;
+    font-size: 23px;
+   
+}
+.right-bg-width p{
+    text-align: justify;
+}
+.half-width-left p{
+    text-align:justify ;
+}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
