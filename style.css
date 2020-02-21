@@ -1,17 +1,22 @@
 body{
-    margin: 0;
+  margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    font-size: 45px;
+}
 .orange-highlight{
     color: #EC4C7A;
-    font-size: 60px;
-    letter-spacing:2px;
+    font-size: 70px;
+    letter-spacing:5px;
 }
 
 p{
     text-align: justify;
     font-size: 20px;
+    padding-bottom: 5px;
 }
 section{
     height: 750px;
@@ -31,7 +36,7 @@ section{
     width: 40%;
     float: left;
     margin-left: 5%; 
-    padding-top: 350px;
+    padding-top: 220px;
     padding-left: 70px;
     
 }
@@ -60,7 +65,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight:700;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .biography-part{
@@ -79,7 +84,7 @@ section{
 
 .right-bg-width{
     width: 40%;
-    padding-top: 363px;
+    padding-top: 225px;
     margin-left:5%;
     overflow: hidden;
 }
@@ -87,6 +92,47 @@ section{
 .left-bg-width img{
     width: 100%;
     height: 850px;
+}
+
+.project-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    padding-bottom:100px;
+}
+.work-container{
+    width: 100%;
+    
+}
+.work-container img{
+    width:100%;
+}
+
+.first-project{
+    width: 25%;
+    margin-left: 10.5%;
+    float: left;
+    
+}
+.second-project{
+    width: 25%;
+    margin-left:2%;
+    margin-right:2%;
+    overflow: hidden;
+    float:left;
+   
+}
+
+.third-project{
+    width: 25%;
+    margin-right: 10.5%;
+    overflow: hidden;
+  
+}
+
+.project-work h1{
+    text-align: center;
 }
 
 
